@@ -9,7 +9,7 @@ body {
     background-color: #141A46;
 }
 
-.logo2019 {
+.headerLogo {
     left: 82px;
 }
 
@@ -195,6 +195,29 @@ body {
     letter-spacing: 0.75px;
     color: #141A46;
     margin-top: 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: #141A46;
+    height: 250px;
+    padding-top: 110px;
+}
+
+.footerLogo {
+    left: 82px;
+}
+
+.footerText {
+    font: normal normal normal 15px/30px Geomanist;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.footerText p {
+    margin-bottom: -5px;
 }
 
 .bg-red {
