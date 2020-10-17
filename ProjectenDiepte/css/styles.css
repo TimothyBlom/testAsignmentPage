@@ -32,15 +32,15 @@ body {
     font: normal normal medium 15px/19px Geomanist;
     letter-spacing: 0.75px;
     color: #FFFFFF;
-    font-weight: bold;
+    font-weight: medium;
     width: 100%;
 }
 
 .headerBigText {
     font: normal normal medium 60px/78px Geomanist;
     font-weight: bold;
-    color: #FFFFFF;
     font-size: 60px;
+    color: #FFFFFF;
 }
 
 .headerSmallText {
@@ -100,6 +100,54 @@ body {
 /* Proces */
 .procesImg {
     width: 885px;
+}
+
+.procesText {
+    left: 180px;
+    margin-top: 150px;
+}
+
+.procesSmallText {
+    font: normal normal normal 12px/15px Geomanist;
+    letter-spacing: 1.8px;
+    color: #BCC1E4;
+    text-transform: uppercase;
+}
+
+.procesBigText {
+    font: normal normal medium 36px/46px Geomanist;
+    letter-spacing: 0px;
+    color: #141A46;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.procesBeschrijfing {
+    font: normal normal normal 15px/24px Geomanist;
+    letter-spacing: 0.75px;
+    color: #141A46;
+    margin-top: 40px;
+}
+
+/* quote */
+.quote {
+    margin-top: 150px;
+}
+
+.quoteBigText {
+    font: normal normal normal 24px/30px Geomanist;
+    letter-spacing: 0px;
+    color: #141A46;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.quoteSmallText {
+    font: normal normal normal 15px/24px Geomanist;
+    letter-spacing: 0.75px;
+    color: #141A46;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
 .bg-red {
