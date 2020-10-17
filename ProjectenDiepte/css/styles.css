@@ -1,0 +1,111 @@
+body {
+    font-family: "Geomanist";
+}
+
+/* Navigatie */
+.navigation {
+    height: 80px;
+    padding-top: 25px;
+    background-color: #141A46;
+}
+
+.logo2019 {
+    left: 82px;
+}
+
+#pageSelected {
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    background-color: #141A46;
+    height: 500px;
+}
+
+.headerText {
+    margin-left: 82px;
+    margin-top: 100px;
+}
+
+.navigationText {
+    font: normal normal medium 15px/19px Geomanist;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 100%;
+}
+
+.headerBigText {
+    font: normal normal medium 60px/78px Geomanist;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 60px;
+}
+
+.headerSmallText {
+    font: normal normal normal 12px/15px Geomanist;
+    letter-spacing: 1.8px;
+    color: #7A84C9;
+    text-transform: uppercase;
+}
+
+.backspaceImg {
+    float: left;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.headerImg {
+    height: 320px;
+    margin-top: 50px;
+    margin-left: 25px;
+    position: relative;
+}
+
+/* Uitdaging */
+.uitdaging {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.uitdagingText {
+    left: 82px;
+}
+
+.uitdagingBeschrijfing {
+    font: normal normal normal 15px/24px Geomanist;
+    letter-spacing: 0.75px;
+    color: #141A46;
+    width: 670px;
+    font-size: 15px;
+}
+
+.uitdagingSmallText {
+    font: normal normal normal 12px/15px Geomanist;
+    letter-spacing: 1.8px;
+    color: #BCC1E4;
+    text-transform: uppercase;
+}
+
+.uitdagingBigText {
+    font: normal normal medium 36px/46px Geomanist;
+    letter-spacing: 0px;
+    color: #141A46;
+    font-size: 36px;
+    font-weight: bold;
+    width: 343px;
+}
+
+/* Proces */
+.procesImg {
+    width: 885px;
+}
+
+.bg-red {
+    background-color: darkred;
+}
+
+.bg-blue {
+    background-color: lightblue;
+}
