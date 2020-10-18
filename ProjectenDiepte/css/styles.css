@@ -1,5 +1,41 @@
+@font-face {
+    font-family: 'geomanistregular';
+    src: url('geomanistFont/geomanist-regular-webfont.eot');
+    src: url('geomanistFont/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('geomanistFont/geomanist-regular-webfont.woff2') format('woff2'),
+         url('geomanistFont/geomanist-regular-webfont.woff') format('woff'),
+         url('geomanistFont/geomanist-regular-webfont.ttf') format('truetype'),
+         url('geomanistFont/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: "Geomanist";
+    font-family: "geomanistregular";
+}
+
+.mediumText {
+    /* font should be geomanistmedium, and not have font weight bold*/
+    font: 36px "geomanistregular";
+    font-weight: bold;
+    color: #141A46;
+    line-height: 46px;
+}
+
+.verhaalText {
+    /* font should be geomanistbook*/
+    font: 15px "geomanistregular";
+    letter-spacing: 0.75px;
+    line-height: 24px;
+    color: #141A46;
+}
+
+.smallText {
+    font: 12px "geomanistregular";
+    letter-spacing: 1.8px;
+    line-height: 15px;
+    color: #7A84C9;
+    text-transform: uppercase;
 }
 
 /* Navigatie */
@@ -13,7 +49,18 @@ body {
     left: 82px;
 }
 
+.navigationText {
+    /* font should be geomanistbook*/
+    font: 15px "geomanistregular";
+    letter-spacing: 0.75px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
 #pageSelected {
+    /* font should be geomanistmedium, not font weight bold*/
+    font-weight: bold;
+    line-height: 19px;
     text-decoration: underline;
 }
 
@@ -28,32 +75,18 @@ body {
     margin-top: 100px;
 }
 
-.navigationText {
-    font: normal normal medium 15px/19px Geomanist;
-    letter-spacing: 0.75px;
-    color: #FFFFFF;
-    font-weight: medium;
-    width: 100%;
-}
-
 .headerBigText {
-    font: normal normal medium 60px/78px Geomanist;
+    /* font should be geomanistmedium, not font weight bold*/
+    font: 60px "geomanistregular";
     font-weight: bold;
-    font-size: 60px;
     color: #FFFFFF;
-}
-
-.headerSmallText {
-    font: normal normal normal 12px/15px Geomanist;
-    letter-spacing: 1.8px;
-    color: #7A84C9;
-    text-transform: uppercase;
+    line-height: 78px;
 }
 
 .backspaceImg {
     float: left;
     margin-right: 5px;
-    margin-top: -3px;
+    margin-top: -2px;
 }
 
 .headerImg {
@@ -71,35 +104,17 @@ body {
 
 .uitdagingText {
     left: 82px;
-}
-
-.uitdagingBeschrijfing {
-    font: normal normal normal 15px/24px Geomanist;
-    letter-spacing: 0.75px;
-    color: #141A46;
-    width: 670px;
-    font-size: 15px;
-}
-
-.uitdagingSmallText {
-    font: normal normal normal 12px/15px Geomanist;
-    letter-spacing: 1.8px;
-    color: #BCC1E4;
-    text-transform: uppercase;
-}
-
-.uitdagingBigText {
-    font: normal normal medium 36px/46px Geomanist;
-    letter-spacing: 0px;
-    color: #141A46;
-    font-size: 36px;
-    font-weight: bold;
     width: 343px;
+}
+
+.uitdagingBeschrijfing p {
+    width: 670px;
 }
 
 /* Proces */
 .procesImg {
     width: 885px;
+    margin-left: -15px;
 }
 
 .procesText {
@@ -107,25 +122,7 @@ body {
     margin-top: 150px;
 }
 
-.procesSmallText {
-    font: normal normal normal 12px/15px Geomanist;
-    letter-spacing: 1.8px;
-    color: #BCC1E4;
-    text-transform: uppercase;
-}
-
-.procesBigText {
-    font: normal normal medium 36px/46px Geomanist;
-    letter-spacing: 0px;
-    color: #141A46;
-    font-size: 36px;
-    font-weight: bold;
-}
-
 .procesBeschrijfing {
-    font: normal normal normal 15px/24px Geomanist;
-    letter-spacing: 0.75px;
-    color: #141A46;
     margin-top: 40px;
 }
 
@@ -134,17 +131,21 @@ body {
     margin-top: 150px;
 }
 
-.quoteBigText {
-    font: normal normal normal 24px/30px Geomanist;
+.quoteText {
+    /* font should be geomanistbook*/
+    font: 24px "geomanistregular";
     letter-spacing: 0px;
+    line-height: 30px;
     color: #141A46;
     margin-left: 100px;
     margin-top: -50px;
 }
 
-.quoteSmallText {
-    font: normal normal normal 15px/24px Geomanist;
+.quoteName {
+    /* font should be geomanistbook*/
+    font: 15px "geomanistregular";
     letter-spacing: 0.75px;
+    line-height: 24px;
     color: #141A46;
     margin-left: 100px;
     margin-top: 20px;
@@ -175,25 +176,11 @@ body {
     top: 92px;
 }
 
-.oplossingSmallText {
-    font: normal normal normal 12px/15px Geomanist;
-    letter-spacing: 1.8px;
+.oplossingSmall {
     color: #EFB69B;
-    text-transform: uppercase;
-}
-
-.oplossingBigText {
-    font: normal normal medium 36px/46px Geomanist;
-    letter-spacing: 0px;
-    color: #141A46;
-    font-size: 36px;
-    font-weight: bold;
 }
 
 .oplossingBeschrijfing {
-    font: normal normal normal 15px/24px Geomanist;
-    letter-spacing: 0.75px;
-    color: #141A46;
     margin-top: 30px;
 }
 
@@ -209,21 +196,15 @@ body {
 }
 
 .footerText {
-    font: normal normal normal 15px/30px Geomanist;
+    /* font should be geomanistbook*/
+    font: 15px "geomanistregular";
     letter-spacing: 0.75px;
+    line-height: 30px;
     color: #FFFFFF;
     height: 50px;
     margin-right: 50px;
 }
 
 .footerText p {
-    margin-bottom: -5px;
-}
-
-.bg-red {
-    background-color: darkred;
-}
-
-.bg-blue {
-    background-color: lightblue;
+    margin-bottom: -2px;
 }
