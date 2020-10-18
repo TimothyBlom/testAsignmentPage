@@ -55,6 +55,12 @@ body {
     letter-spacing: 0.75px;
     line-height: 19px;
     color: #FFFFFF;
+    left: 70px;
+}
+.navigationText p {
+    float: left;
+    margin-right: 100px;
+    text-align: right;
 }
 
 #pageSelected {
@@ -73,6 +79,7 @@ body {
 .headerText {
     margin-left: 82px;
     margin-top: 100px;
+    width: 470px;
 }
 
 .headerBigText {
@@ -104,11 +111,16 @@ body {
 
 .uitdagingText {
     left: 82px;
+}
+
+.uitdagingText p {
     width: 343px;
 }
 
 .uitdagingBeschrijfing p {
     width: 670px;
+    margin-left: 85px;
+    float: right;
 }
 
 /* Proces */
@@ -118,7 +130,7 @@ body {
 }
 
 .procesText {
-    left: 180px;
+    left: 140px;
     margin-top: 150px;
 }
 
@@ -203,8 +215,15 @@ body {
     color: #FFFFFF;
     height: 50px;
     margin-right: 50px;
+    margin-top: -15px;
 }
 
 .footerText p {
     margin-bottom: -2px;
+}
+
+.footerTextImage {
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
 }
