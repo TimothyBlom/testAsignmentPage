@@ -143,6 +143,10 @@ body {
 }
 
 /* Proces */
+.procesImgContainer {
+    min-width: 700px;
+}
+
 .procesImg {
     width: 885px;
     margin-left: -15px;
@@ -159,11 +163,13 @@ body {
 .procesText {
     left: 225px;
     margin-top: 150px;
+    float: left;
+    max-width: 400px;
 }
 
 .procesBeschrijfing {
     margin-top: 40px;
-    width: 370px;
+    max-width: 370px;
 }
 
 /* quote */
@@ -222,6 +228,7 @@ body {
     margin-top: -130px;
     height: 680px;
     width: 470px;
+    margin-bottom: -130px;
 }
 
 .oplossingText {
@@ -275,6 +282,13 @@ body {
     margin-right: 10px;
 }
 
-.bg-red {
+/* 
+lg = 1200px
+md = 992px - 1199px
+sm = 768px - 991px
+xs = 767px 
+*/
+
+.bgred {
     background-color: red;
 }
